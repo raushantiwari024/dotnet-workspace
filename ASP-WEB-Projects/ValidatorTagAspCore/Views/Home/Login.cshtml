@@ -1,0 +1,44 @@
+@model ValidatorTagAspCore.Models.Student;
+
+<div class="container">
+    <div class="row d-flex justify-content-center align-items-center ">
+        <div class="col-md-4 border border-primary py-5 px-4" style="background-color: #d6d6d6;border-radius: 15px;">
+            <form asp-action="Login" asp-controller="Home" method="post" class="d-grid">
+                <div asp-validation-summary="All" class="text-danger">
+
+                </div>
+                <input asp-for="Name" class="form-control" placeholder="Enter name here...">
+                @* <span asp-validation-for="Name" class="text-danger"></span> *@
+
+                @* <input asp-for="Email" class="form-control mt-2" placeholder="Enter email here...">
+                <span asp-validation-for="Email" class="text-danger"></span> *@
+
+                <input asp-for="Age" class="form-control mt-2" placeholder="Enter Age here...">
+                @* <span asp-validation-for="Age" class="text-danger"></span> *@
+
+                <input asp-for="Contact" class="form-control mt-2" placeholder="Enter Contact here...">
+                @* <span asp-validation-for="Contact" class="text-danger"></span> *@
+
+                @* <input asp-for="Password" class="form-control mt-2" placeholder="Enter Password here...">
+                <span asp-validation-for="Password" class="text-danger"></span>
+
+                <input asp-for="ConfirmPassword" class="form-control mt-2" placeholder="Confirm Password here...">
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+                <input asp-for="WebUrl" class="form-control mt-2" placeholder="WebUrl enter here...">
+                <span asp-validation-for="WebUrl" class="text-danger"></span> *@
+                <input type="submit" value="Submit Form" class="btn btn-primary mt-2">
+            </form>
+        </div>
+    </div>
+</div>
+
+@* 
+<div class="container">
+    <form asp-container="Home" asp-action="Login" class="d-grid">
+        <input asp-for="Name" placeholder="Enter name here" />
+        <span asp-validation-for="Name"></span>
+        <br>
+        <input type="submit" value="Submit" class="btn btn-primary">
+    </form>
+</div> *@

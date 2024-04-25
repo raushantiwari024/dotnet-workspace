@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ValidatorTagAspCore.props" />
+</Project>

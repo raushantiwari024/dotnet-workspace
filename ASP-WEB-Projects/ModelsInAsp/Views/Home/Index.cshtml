@@ -1,0 +1,36 @@
+﻿@using ModelsInAsp.Models
+
+@{
+    ViewData["Title"] = "Home Page";
+    var students = (List<StudentModel>)ViewData["students"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<table class="table table-striped">
+  <thead class="thead-light bg-primary text-white bold">
+    <tr>
+      <th scope="col">Roll No.</th>
+      <th scope="col">Name</th>
+      <th scope="col">Standard</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    @{
+        foreach(var student in students)
+        {
+            <tr>
+                <th scope="row">@student.RollNo</th>
+                <td>@student.Name</td>
+                <td>@student.Standard</td>
+                <td>@student.Age</td>
+            </tr>
+        }
+    }
+  </tbody>
+</table>

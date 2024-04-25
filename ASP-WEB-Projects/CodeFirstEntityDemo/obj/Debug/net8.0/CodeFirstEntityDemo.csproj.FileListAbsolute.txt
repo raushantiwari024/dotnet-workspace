@@ -1,0 +1,8 @@
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.csproj.AssemblyReference.cache
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.GeneratedMSBuildEditorConfig.editorconfig
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.AssemblyInfoInputs.cache
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.AssemblyInfo.cs
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.csproj.CoreCompileInputs.cache
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.MvcApplicationPartsAssemblyInfo.cache
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.RazorAssemblyInfo.cache
+/home/tiwaarijee/dotnet-workspace/ASP-WEB-Projects/CodeFirstEntityDemo/obj/Debug/net8.0/CodeFirstEntityDemo.RazorAssemblyInfo.cs

@@ -1,0 +1,14 @@
+/home/tiwaarijee/dotnet-workspace/c#/first/bin/Debug/net8.0/first
+/home/tiwaarijee/dotnet-workspace/c#/first/bin/Debug/net8.0/first.deps.json
+/home/tiwaarijee/dotnet-workspace/c#/first/bin/Debug/net8.0/first.runtimeconfig.json
+/home/tiwaarijee/dotnet-workspace/c#/first/bin/Debug/net8.0/first.dll
+/home/tiwaarijee/dotnet-workspace/c#/first/bin/Debug/net8.0/first.pdb
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/first.GeneratedMSBuildEditorConfig.editorconfig
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/first.AssemblyInfoInputs.cache
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/first.AssemblyInfo.cs
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/first.csproj.CoreCompileInputs.cache
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/first.dll
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/refint/first.dll
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/first.pdb
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/first.genruntimeconfig.cache
+/home/tiwaarijee/dotnet-workspace/c#/first/obj/Debug/net8.0/ref/first.dll

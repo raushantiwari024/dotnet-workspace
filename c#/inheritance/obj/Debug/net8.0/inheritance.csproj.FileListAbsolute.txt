@@ -1,0 +1,14 @@
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/bin/Debug/net8.0/inheritance
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/bin/Debug/net8.0/inheritance.deps.json
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/bin/Debug/net8.0/inheritance.runtimeconfig.json
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/bin/Debug/net8.0/inheritance.dll
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/bin/Debug/net8.0/inheritance.pdb
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/inheritance.AssemblyInfoInputs.cache
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/inheritance.AssemblyInfo.cs
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/inheritance.csproj.CoreCompileInputs.cache
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/inheritance.dll
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/refint/inheritance.dll
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/inheritance.pdb
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/inheritance.genruntimeconfig.cache
+/home/tiwaarijee/dotnet-workspace/c#/inheritance/obj/Debug/net8.0/ref/inheritance.dll

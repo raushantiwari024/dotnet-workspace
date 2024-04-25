@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"]="Index";
+    @* Layout = "~/Views/Shared/_Layout.cshtml"; *@
+}
+
+<div>
+    <h1>This is the index page of ViewAndLayout</h1>
+    @{
+        var name = ViewData["name"];
+        var number=ViewData["number"];
+        var email =ViewData["email"];
+        <h1>Name : @name</h1>
+        <h1>Contact : @number</h1>
+        <h1>Email   : @email </h1>
+    }
+</div>

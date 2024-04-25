@@ -1,0 +1,65 @@
+﻿@model Employee
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+
+@*General HTML way to create a hyperlink*@
+@* <a href="/Home/Contact/2">Contact Page 1</a> @*Without Id
+<br>
+@Html.ActionLink("Contact Page 2","Contact","Home",new {id = 2})
+<br>
+<a href="@Url.Action("Contact","Home",new {id = 2})">Contact Page 3</a>
+<br>
+@* Creating anchor tag with the help of Tag Helper *@
+@*<a asp-controller="Home" asp-action="Contact" asp-route-id="2">Contact Page 4</a>" *@
+
+@* <img src="~/img/kali.png" asp-append-version="true" alt="Linux OS Image..." width="300px" height="180px">
+
+<img src="~/img/linux.png" asp-append-version="true" alt="Linux OS Image..." width="300px" height="180px"> *@
+
+<div class="container d-flex justify-content-center align-item-center">
+    <div class="bg-dark px-5 py-3 text-white" style="border-radius: 15px;">
+        <div class="d-flex justify-content-center align-item-center">
+
+            <form asp-action="Index" asp-controller="Home" method="post">
+                @* <label asp-for="Name">Name</label> *@
+
+                <input asp-for="Name" class="form-control" placeholder="Enter Your Name" />
+                <input asp-for="Age" class="form-control" placeholder="Enter Your Age" />
+
+                <select asp-for="Gender" class="form-control" asp-items="Html.GetEnumSelectList<Gender>()">
+                    <option value="">Select Gender</option>
+                </select>
+
+                <label>
+                    <b>Marrital Status</b>
+                </label>
+                <div class="d-flex align-items-strech">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="Married" value="Yes">
+                        <label class="form-check-label mr-3" for="flexRadioDefault1">
+                            Married
+                        </label>
+                    </div>
+                    <div class="form-check ml-3">
+                        <input class="form-check-input" type="radio" asp-for="Married" value="No">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Unmarried
+                        </label>
+                    </div>
+                    
+                </div>
+                <input asp-for="Designation" class="form-control" placeholder="Enter Your Designation" />
+                <textarea asp-for="Description" class="form-control" placeholder="Enter your description"></textarea>
+                <input asp-fot="Salary" class="form-control" placeholder="Enter Your Salary" />
+                <input type="submit" value="Submit" class="btn btn-primary form-control">
+            </form>
+        </div>
+    </div>
+</div>
